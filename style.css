@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: rgb(206, 204, 204);
+}
+
+canvas {
+  margin: 20px;
+  border: 10px solid rgb(180, 180, 180);
+  border-style: inset;
+  background-color: rgb(39, 39, 39);
+}
+
+.score-board {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #393939;
+  color: #41ff00;
+  border: 10px solid rgb(180, 180, 180);
+  border-style: inset;
+}
+
+.container {
+  margin: 0 .5rem;
+}
